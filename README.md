@@ -1,48 +1,104 @@
-Learning Java the Informatiker Way – Semester 1 ☕💻
+# Learn Java Like an Informatics Student – Semester 1 ☕💻
 
-This repository documents my journey learning Java during my first semester at THM .
-The focus isn't just on coding, but also on understanding concepts commonly covered in university: data types, control flow, OOP, and basic algorithms.
+This repository documents my learning journey in **Java** as a first-semester **Informatics** student at  
+**Technische Hochschule Mittelhessen (THM), Germany**.
 
-Primary language: English, occasionally mixed with German terms to align with course materials.
-🎯 Repository Goals
+The goal is not only to write code, but to truly **understand fundamental concepts** taught in university:  
+data types, control flow, methods, OOP basics, and simple algorithms.
 
-Document my Java learning progress during semester 1.
-Provide simple code examples that are:
+> Most notes and explanations are written in **Indonesian**, with some technical vocabulary in **English/German**, matching the style of university lectures.
 
-easy to read,
-well-commented,
-relevant to basic programming courses/assignments.
-Serve as "digital notes" for reviewing material before exams.
-📚 Topics Covered
+---
 
-This repository will include examples and exercises for:
+## 🎯 Purpose of This Repository
 
-Java Basics
+- Track my progress in understanding Java throughout Semester 1 at THM.
+- Provide simple, clean, and well-commented code examples.
+- Serve as a digital notebook to review concepts before exams.
+- Help other beginners or Informatik students understand Java fundamentals.
 
-Java program structure (main, class, method)
-Primitive data types & operators
-Simple input/output
-Control Flow
+---
 
-if, else if, switch
-for, while, do-while
-Arrays & Strings
+## 📚 Topics Covered
 
-1D arrays (and possibly 2D)
-Basic array operations (search, min/max, etc.)
-Basic String manipulation
-Methods & Parameters
+### **1. Java Basics**
+- Structure of a Java program (`class`, `main`)
+- Variables, primitive data types, operators
+- Basic I/O
 
-Methods with/without return values
-Parameter passing (by value in Java)
-OOP Fundamentals
+### **2. Control Flow**
+- Conditional statements: `if`, `else if`, `switch`
+- Loops: `for`, `while`, `do-while`
 
-class & object
-constructor
-this keyword
-toString()
-(Optional future topics)
+### **3. Arrays & Strings**
+- One-dimensional arrays
+- Basic operations (searching, iteration, min/max)
+- Simple string manipulation
 
-Basic collections (ArrayList)
-Simple algorithms (linear search, basic binary search, etc.)
-Note: Structure and topics may change/expand as the semester progresses.
+### **4. Methods**
+- Methods with/without return values
+- Parameters & Java's pass-by-value concept
+
+### **5. Object-Oriented Programming (OOP)**
+- Creating classes & objects
+- Constructors
+- The `this` keyword
+- Overriding `toString()`
+
+### **6. (Optional / Coming Soon)**
+- Collections (`ArrayList`)
+- Basic algorithms
+- More structured exercises similar to university assignments
+
+---
+
+## 🗂 Project Structure (Planned)
+
+```text
+Belajar-Java-ala-Informatiker-Semester-1/
+├─ src/
+│  ├─ basics/          # Hello World, variables, data types
+│  ├─ controlflow/     # if/else, loops
+│  ├─ arrays/          # array exercises
+│  ├─ methods/         # method + parameter practice
+│  └─ oop/             # classes, objects, constructors
+├─ notes/
+│  └─ summary.md       # study notes and explanations
+└─ README.md
+(This may evolve as the semester progresses.)
+
+🚀 How to Run the Code
+Requirements
+JDK 17 or newer
+Any Java-friendly editor:
+IntelliJ IDEA
+Eclipse
+VS Code with Java extensions
+Or simply the terminal
+Compile & Run (Terminal)
+# Compile
+javac FileName.java
+
+# Run
+java FileName
+Example:
+javac HelloWorld.java
+java HelloWorld
+
+✅ Learning Progress Checklist
+ Java program structure
+ Variables & data types
+ Control flow (if/else, switch)
+ Loops (for, while, do-while)
+ Arrays & basic algorithms
+ Methods & parameters
+ OOP fundamentals
+ Practice problems / exam-style tasks
+🤝 Contributions
+Although this is mainly a personal learning repo, suggestions are always welcome.
+Feel free to open an Issue or submit a Pull Request.
+📩 Contact
+GitHub: @rayhanzahir-kr
+📄 License
+Currently: All rights reserved (personal learning project).
+May change in the future to MIT/Apache if the project expands.
