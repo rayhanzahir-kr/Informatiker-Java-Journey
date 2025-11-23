@@ -1,3 +1,4 @@
+package OOP;
 class Bruch{
     long zähler,nenner;
 
