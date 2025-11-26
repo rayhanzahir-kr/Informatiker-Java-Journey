@@ -1,4 +1,5 @@
-package OOP;
+import VW7.IO;
+
 class Bruch{
     long zähler,nenner;
 
@@ -45,6 +46,16 @@ class Bruch{
         long neuerNenner = abs(this.zähler);
         return new Bruch(neuerZähler, neuerNenner);
     }
+    Bruch inv1() {
+        if (zähler < 0) return this.neg().inv1().neg();
+        return Bruch.of(nenner, zähler);
+    }
+    Bruch inv2 (){
+        if(zähler<0)
+            return new Bruch (-this.nenner,-this.zähler);
+
+        return new Bruch(nenner, zähler);
+    }
 
      Bruch add(Bruch b){
         long gemeinsamNenner= kgV(this.nenner, b.nenner);
@@ -61,10 +72,10 @@ class Bruch{
 
         return new Bruch(x,y);
     }
-    //Bruch div(Bruch b){
+    Bruch div(Bruch b){
 
-       // return mul(b.inv());
-   // }
+        return mul(b.inv());
+   }
 
 
     public String toString(){
@@ -84,6 +95,15 @@ class Bruch{
 
 }
 
+Bruch a=new Bruch (1,2);
+Bruch b=new Bruch (-5,2);
+
+try {
+    assert false;
+    IO.println("WARNING: Test cases are ignored. Please enable assertions with `jshell -R-ea`");
+} catch (AssertionError e) {
+    IO.print("Running tests ... ");
+}
 
 assert Bruch.of(1,2).toString().equals("1/2");
 assert Bruch.of(5,4).toString().equals("1 1/4");
@@ -114,4 +134,9 @@ assert Bruch.of(27,11).sub(Bruch.of(29,13)).toString().equals("32/143");
 
 
 
+try {
+    assert false;
+} catch (AssertionError e) {
+    IO.println("done!");
+}
 
