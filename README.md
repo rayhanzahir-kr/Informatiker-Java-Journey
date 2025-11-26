@@ -1,4 +1,4 @@
-# Learn Java Like an Informatics Student – Semester 1 ☕💻
+# Learn Java Like an Informatics Student –☕💻
 
 This repository documents my learning journey in **Java** as a first-semester **Informatics** student at  
 **Technische Hochschule Mittelhessen (THM), Germany**.
