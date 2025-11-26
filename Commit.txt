@@ -1,0 +1,5 @@
+This repository documents my learning journey in **Java** as a first-semester **Informatics** student at  
+**Technische Hochschule Mittelhessen (THM), Germany**.
+
+The goal is not only to write code, but to truly **understand fundamental concepts** taught in university:  
+data types, control flow, methods, OOP basics, and simple algorithms.
